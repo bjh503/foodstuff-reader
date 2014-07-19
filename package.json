@@ -1,0 +1,25 @@
+{
+  "name": "foodstuff-reader",
+  "version": "0.0.1",
+  "description": "Parses PDFs sent by Meallime, and sends to an Orchestrate account",
+  "main": "index.js",
+  "dependencies": {
+    "orchestrate": "~0.2.0",
+    "pdf2json": "~0.6.7",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bjh503/foodstuff-reader.git"
+  },
+  "author": "Ben Harrop <me@benharrop.co.uk>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bjh503/foodstuff-reader/issues"
+  },
+  "homepage": "https://github.com/bjh503/foodstuff-reader"
+}
